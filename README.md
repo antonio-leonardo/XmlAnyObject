@@ -39,7 +39,7 @@ string xml = @"<?xml version=""1.0"" encoding=""UTF-8""?>
                
 XmlAnyObject anyObject = XmlAnyObject.Deserialize(xml);
 ```
-From Visual Studio QuickWatch, the developer throw and navagate to object nodes generates with [dynamic type](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/dynamic) behavior, with a vantage to be generated at compile time:
+From Visual Studio QuickWatch, the developer throw and navigate to object nodes generated with [dynamic type](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/dynamic) behavior, with the vantage to be executed at compile time:
 ![From: https://github.com/antonio-leonardo/XmlAnyObject](https://github.com/antonio-leonardo/XmlAnyObject/blob/master/vs-quickwatch-anyObject.png)
 
 ----------------------
