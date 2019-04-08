@@ -3,7 +3,7 @@ This class offers a Serialization or Deserialization of any xml sequence in comp
 Follow this example; I have one XML sequence like this:
 
 ```xml
-<?xml version=""1.0"" encoding=""UTF-8""?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Company att='teste'>
     <First>teste 1</First>
     <Second>teste 2</Second>
@@ -23,15 +23,15 @@ If do you want to consume this Xml above or multiples Xml without write [C# Data
 
 ```cs
 string xml = @"<?xml version=""1.0"" encoding=""UTF-8""?>
-               <Company att='teste'>
+               <Company att=""teste"">
                    <First>teste 1</First>
                    <Second>teste 2</Second>
-                   <Third vvv='hello'>teste 3</Third>
+                   <Third vvv=""hello"">teste 3</Third>
                    <FirstVarious>other test 1</FirstVarious>
                </Company>
                <Company>
                    <First>novo teste 1</First>
-                   <Second bi='ttt'>novo teste 2</Second>
+                   <Second bi=""ttt"">novo teste 2</Second>
                    <Third>novo teste 3</Third>
                    <SecondVarious></SecondVarious>
                    <ThirdVarious>other test 2</ThirdVarious>
