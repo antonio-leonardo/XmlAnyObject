@@ -19,7 +19,7 @@ Follow this example; I have one XML sequence like this:
 </Company>
 ```
 
-If do you want to consume this Xml above or multiples Xml without write C# DTO POCO Class for each Xml, use XmlAnyObject , with a simple line:
+If do you want to consume this Xml above or multiples Xml without write [C# Data Transfer Object](https://www.codeproject.com/Articles/1050468/Data-Transfer-Object-Design-Pattern-in-Csharp) for each Xml, use XmlAnyObject , with a simple line:
 
 ```cs
 string xml = @"<?xml version=""1.0"" encoding=""UTF-8""?>
