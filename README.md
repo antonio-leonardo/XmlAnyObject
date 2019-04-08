@@ -1,5 +1,5 @@
 # Xml Any Object
-This class offers a Serialization or Deserialization of any xml sequence in compile time, using recursively algorithm concept; this feature is able to transform a xml string to XmlAnyObject object or XmlAnyObject object to xml string.
+This class offers a Serialization or Deserialization of any xml sequence at compile time, using recursively algorithm concept; this feature is able to transform a xml string to XmlAnyObject object or XmlAnyObject object to xml string.
 Follow this example; I have one XML sequence like this:
 
 ```xml
@@ -39,7 +39,7 @@ string xml = @"<?xml version=""1.0"" encoding=""UTF-8""?>
                
 XmlAnyObject anyObject = XmlAnyObject.Deserialize(xml);
 ```
-From Visual Studio QuickWatch, the developer throw and navagate to object nodes generates with dynamic behavior, but generated from compilation time:
+From Visual Studio QuickWatch, the developer throw and navagate to object nodes generates with [dynamic type](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/dynamic) behavior, with a vantage to be generated at compile time:
 ![From: https://github.com/antonio-leonardo/XmlAnyObject](https://github.com/antonio-leonardo/XmlAnyObject/blob/master/vs-quickwatch-anyObject.png)
 
 ----------------------
